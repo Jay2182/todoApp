@@ -11,8 +11,8 @@ function App() {
             <Header title="TODO APP" />
 
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/todoApp" element={<Home />} />
+                <Route path="todoApp/about" element={<About />} />
             </Routes>
 
             <Footer />
